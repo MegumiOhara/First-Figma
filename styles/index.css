@@ -7,8 +7,9 @@
     padding-right: 15px;
     box-sizing: border-box;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
 }
+
 .logo{
     color: #0A1B32;
     /*googled that circular std is similar to sans-serif*/
@@ -33,20 +34,25 @@
 }
 .navigation{
     color: #1B0A42;
+    overflow: hidden;
+    
+}  
+.navigation a{
+    float: left;
     text-align: center;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
-    display: flex;
     list-style-type: none;
-    justify-content: flex-start;
-    align-items: center;
-}  
+    text-decoration: none;   
+}
+.nav a.split{
+    float:right;
+}
 .navigation>li{
     margin-left: 15px;
+    display: inline-block;
 }
 .navigation>li>a{
     text-decoration: none;
@@ -68,7 +74,7 @@
     margin-top: 30px;
     margin-left: 40px;
 }
-section {
+section{
     display: inline-block;
 }
 .main-title{
