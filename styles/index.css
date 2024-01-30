@@ -68,6 +68,9 @@
     margin-top: 30px;
     margin-left: 40px;
 }
+section{
+    display: inline-block;
+}
 .main-title{
     color: #1B0A42;
     max-width: 495px;
@@ -110,10 +113,4 @@
     letter-spacing: 0.32px;
     margin-top: 50px;
     margin-left: 200px;
-}
-section{
-    display: inline-block;
-}
-img{
-    float: right;
 }
